@@ -1,85 +1,50 @@
-######################################################################################################################
-# Name: Victoria Giepert
-# Date: 3/14/22
-# Description: program 1 2D points
-######################################################################################################################
-#we need to square root for distance formula 
-from math import sqrt
+# import tkinter for the gui and PIL so we can use png and jpg files
+from tkinter import *
+from PIL import Image, ImageTk
 
-# the 2D point class
-class Point:
-    def __init__(self, x=0, y=0): #default values
-        self.x = x
-        self.y = y
+# create the main circle frame
+class CircleFrame():
+    def __init__(self, the_window):
+        frame1 = Frame(width=400, height=400, bg="white")
+        frame1.grid(row=0, column=0)
+        # create a canvas that the main circle will be drawn onto
+        canvas1 = Canvas(frame1, width=400, height=400, bg="blue")
+        # make sure that it is placed ON the frame, and doesn't impact the grid
+        canvas1.pack()
+        # take the image and place it onto a variable
+        sprite1 = ImageTk.PhotoImage(file=r"Slice_image_placeholder.png")
+        # reference said image so it doesn't get garbage collected
+        canvas1.image = sprite1
+        # generate the image onto the canvas
+        canvas1.create_image(200,200,image=sprite1)
 
-    #accessors aka getters
-    @property
-    def x(self):
-        return self._x
 
-    @property
-    def y(self):
-        return self._y
+# this is the same as the CircleFrame, but with no canvas since this will be entirely text & button-based
+class TextFrame():
+    def __init__(self, the_window):
+        frame2 = Frame(width=350, height=400, bg="grey")
+        frame2.grid(row=0, column=1)
 
-    #mutators aka setters
-    @x.setter
-    def x(self, value):
-        self._x = float(value) #the numbers entered are int so this will convet them to float
-            
-    @y.setter
-    def y(self, value):
-        self._y = float(value)
 
-    #magic function that makes it readable
-    def __str__(self):
-        return "({},{})".format(self.x, self.y)
 
-    #take two points as inputs and calculate and return the distance
-    def dist(self, p):
-        x1, y1 = self.x, self.y #did this so COULD unpack non-iterable Point object
-        x2, y2 = p.x, p.y
+###################################################################
+# Main Program
+###################################################################
 
-        a = (x2 - x1)**2
-        b = (y2 - y1)**2
-        ab = a + b
-        d = sqrt(ab)
-        return d
+# set default window size
+width = 750
+height = 400
 
-    #take two points as inputs ams calculate and return the midpoint
-    def midpt(self, p):
-        x1, y1 = self.x, self.y
-        x2, y2 = p.x, p.y
+# set up the gui
+window = Tk()
+window.geometry("{}x{}".format(width, height))
+window.title("Placeholder Name")
 
-        a = (x1 + x2) / 2
-        b = (y1 + y2) / 2
+# call the classes and generate the widgets
+create = CircleFrame(window)
+create2 = TextFrame(window)
 
-        m = Point(a, b) #is a new point
-        return m
-
-        
-
-##########################################################
-# ***DO NOT MODIFY OR REMOVE ANYTHING BELOW THIS POINT!***
-# create some points
-p1 = Point()
-p2 = Point(3, 0)
-p3 = Point(3, 4)
-# display them
-print("p1:", p1)
-print("p2:", p2)
-print("p3:", p3)
-# calculate and display some distances
-print("distance from p1 to p2:", p1.dist(p2))
-print("distance from p2 to p3:", p2.dist(p3))
-print("distance from p1 to p3:", p1.dist(p3))
-# calculate and display some midpoints
-print("midpt of p1 and p2:", p1.midpt(p2))
-print("midpt of p2 and p3:", p2.midpt(p3))
-print("midpt of p1 and p3:", p1.midpt(p3))
-# just a few more things...
-p4 = p1.midpt(p3)
-print("p4:", p4)
-print("distance from p4 to p1:", p4.dist(p1))
+window.mainloop
 
 
 
