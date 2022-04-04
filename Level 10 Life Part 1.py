@@ -12,7 +12,8 @@ class CircleFrame():
         # make sure that it is placed ON the frame, and doesn't impact the grid
         canvas1.pack()
         # take the image and place it onto a variable
-        sprite1 = ImageTk.PhotoImage(file=r"Slice_image_placeholder.png")
+        # if the directory for the image file has backwards slashes then place "r" before the quotations to make it a raw string
+        sprite1 = ImageTk.PhotoImage(file="Slice_image_placeholder.png")
         # reference said image so it doesn't get garbage collected
         canvas1.image = sprite1
         # generate the image onto the canvas
