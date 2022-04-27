@@ -3,13 +3,6 @@ from PIL import Image, ImageTk
 import pathlib, os
 import math
 
-##### IMPORTANT #######
-# This version has an error when you return from the subcategory circles, I (Troy) am going to try to fix this ASAP and will update the code as soon as I fix it.
-# This is purely just to show the framework so that the Text Frame and Circle Frame can coincide
-#
-
-
-
 class CircleFrame():
     def __init__(self, sliceImage, sliceRating):
         global nextFrame
@@ -58,16 +51,16 @@ class MainCircle():
     # create the main pie slice objects
     def createSlicesM(self):
         global s1, s2, s3, s4, s5, s6, s7, s8, s9, s10
-        s1 = CircleFrame("10_Pie_Slice_r", str(averages["1"]))
-        s2 = CircleFrame("10_Pie_Slice_m", str(averages["2"]))
-        s3 = CircleFrame("10_Pie_Slice_fit", str(averages["3"]))
-        s4 = CircleFrame("10_Pie_Slice_c", str(averages["4"]))
-        s5 = CircleFrame("10_Pie_Slice_free", str(averages["5"]))
-        s6 = CircleFrame("10_Pie_Slice_k", str(averages["6"]))
-        s7 = CircleFrame("10_Pie_Slice_fri", str(averages["7"]))
-        s8 = CircleFrame("10_Pie_Slice_sc", str(averages["8"]))
-        s9 = CircleFrame("10_Pie_Slice_fa", str(averages["9"]))
-        s10 = CircleFrame("10_Pie_Slice_fi", str(averages["10"]))
+        s1 = CircleFrame("10_Pie_Slice_r", str(int(averages["1"])))
+        s2 = CircleFrame("10_Pie_Slice_m", str(int(averages["2"])))
+        s3 = CircleFrame("10_Pie_Slice_fit", str(int(averages["3"])))
+        s4 = CircleFrame("10_Pie_Slice_c", str(int(averages["4"])))
+        s5 = CircleFrame("10_Pie_Slice_free", str(int(averages["5"])))
+        s6 = CircleFrame("10_Pie_Slice_k", str(int(averages["6"])))
+        s7 = CircleFrame("10_Pie_Slice_fri", str(int(averages["7"])))
+        s8 = CircleFrame("10_Pie_Slice_sc", str(int(averages["8"])))
+        s9 = CircleFrame("10_Pie_Slice_fa", str(int(averages["9"])))
+        s10 = CircleFrame("10_Pie_Slice_fi", str(int(averages["10"])))
 
     # create a list for easy recall
     def createCircle(self, val):
@@ -92,10 +85,12 @@ class MainCircle():
         MainCircle.canvasM.create_window(225, 675, window=category7, anchor="nw")
 
         # generate the images
+        
         for i in range(len(sliceList)):
-            print(sliceList[i].sliceRating)
             directory = sliceList[i].sliceImage + sliceList[i].sliceRating + ".png"
             img_path = os.path.join(self.current_dir, directory)
+            print(directory)
+            print(sliceList[i].sliceRating)
             sprite = ImageTk.PhotoImage(file=img_path)
             sprite = sprite._PhotoImage__photo.subsample(2)
             # save the images to a list so that they can all display at the same time
