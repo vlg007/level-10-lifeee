@@ -80,13 +80,13 @@ class MainCircle():
         category2.pack(padx=0, pady=0)
         MainCircle.canvasM.create_window(400, 100, window=category2, anchor="nw")
         
-        category3 = Button(MainCircle.canvasM, font="Palatino_Linotype", text="Romance", fg="Red", bg="White", relief="groove", command= lambda: self.generateSide(3, "r"))
-        category1.pack(padx=0, pady=0)
-        MainCircle.canvasM.create_window(400, 800, window=category4, anchor="nw")
+ #       category3 = Button(MainCircle.canvasM, font="Palatino_Linotype", text="Romance", fg="Red", bg="White", relief="groove", command= lambda: self.generateSide(3, "r"))
+ #       category1.pack(padx=0, pady=0)
+ #       MainCircle.canvasM.create_window(400, 800, window=category4, anchor="nw")
 
-        category4 = Button(MainCircle.canvasM, font="Palatino_Linotype", text="Mindset", fg="Yellow", bg="Grey", relief="groove", command= lambda: self.generateSide(4, "m"))
-        category2.pack(padx=0, pady=0)
-        MainCircle.canvasM.create_window(100, 300, window=category5, anchor="nw")
+ #       category4 = Button(MainCircle.canvasM, font="Palatino_Linotype", text="Mindset", fg="Yellow", bg="Grey", relief="groove", command= lambda: self.generateSide(4, "m"))
+ #       category2.pack(padx=0, pady=0)
+ #       MainCircle.canvasM.create_window(100, 300, window=category5, anchor="nw")
 
         category7 = Button(MainCircle.canvasM, font="Palatino_Linotype", text="Friendship", fg="Pink", bg="Grey", relief="groove", command= lambda: self.generateSide(7, "fri"))
         category7.pack(padx=0, pady=0)
