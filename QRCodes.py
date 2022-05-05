@@ -20,7 +20,7 @@ def charity():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -53,7 +53,7 @@ def kindness():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -86,7 +86,7 @@ def helpfulness():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -119,7 +119,7 @@ def positivity():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -152,7 +152,7 @@ def humility():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -185,7 +185,7 @@ def karma_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -220,7 +220,7 @@ def spending_friend():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -253,7 +253,7 @@ def reliable():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -286,7 +286,7 @@ def social():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -319,7 +319,7 @@ def fun():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -352,7 +352,7 @@ def loyal():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -385,7 +385,7 @@ def good():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -418,7 +418,7 @@ def friends_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -453,7 +453,7 @@ def thankfulness():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -486,7 +486,7 @@ def spending_family():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -519,7 +519,7 @@ def loving():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -552,7 +552,7 @@ def connected():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -585,7 +585,7 @@ def family_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -621,7 +621,7 @@ def spending():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -654,7 +654,7 @@ def income():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -687,7 +687,7 @@ def bills():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -720,7 +720,7 @@ def budget():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -753,7 +753,7 @@ def finance_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -788,7 +788,7 @@ def thankfulness():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -821,7 +821,7 @@ def spending_family():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -854,7 +854,7 @@ def loving():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -887,7 +887,7 @@ def connected():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -920,7 +920,7 @@ def family_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -955,7 +955,7 @@ def goals():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -988,7 +988,7 @@ def plan():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1021,7 +1021,7 @@ def strive():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1054,7 +1054,7 @@ def track():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1087,7 +1087,7 @@ def productive():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1120,7 +1120,7 @@ def career_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1156,7 +1156,7 @@ def enjoyable():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1189,7 +1189,7 @@ def hobbies():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1222,7 +1222,7 @@ def healthy():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1255,7 +1255,7 @@ def responsible():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1288,7 +1288,7 @@ def freetime_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1323,7 +1323,7 @@ def good_rel():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1356,7 +1356,7 @@ def trustworthy():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1389,7 +1389,7 @@ def inlove():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1422,7 +1422,7 @@ def meeting():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1455,7 +1455,7 @@ def romance_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1491,7 +1491,7 @@ def exercising():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1524,7 +1524,7 @@ def eating():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1557,7 +1557,7 @@ def health():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1590,7 +1590,7 @@ def active():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1623,7 +1623,7 @@ def fitness_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1658,7 +1658,7 @@ def clean():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1691,7 +1691,7 @@ def spirit():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1724,7 +1724,7 @@ def sleep():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1757,7 +1757,7 @@ def appearance():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1790,7 +1790,7 @@ def selfcare_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1825,7 +1825,7 @@ def happy():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1858,7 +1858,7 @@ def satisfied():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1891,7 +1891,7 @@ def optimistic():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1924,7 +1924,7 @@ def development():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1957,7 +1957,7 @@ def mindset_general():
     top2.geometry("400x560")
         
     # Create label
-    label = Label(top2, text = "This is a QR code of a website to help you.")
+    label = Label(top2, text = "Scan this QR code to be taken to a resource that may aide you!")
         
     # Create exit button.
     button = Button(top2, text = "Exit", command = top2.destroy)
@@ -1994,8 +1994,8 @@ def open_karma():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories of Karma")
-    top1.configure(bg="#FF8C00")
+    label = Label(top1, text = "These are the subcategories for Karma,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#7b16ff")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2036,8 +2036,8 @@ def open_friends():
     top1.geometry("265x270")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories of Friends")
-    top1.configure(bg="#00F5FF")
+    label = Label(top1, text = "These are the subcategories for Friends,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#f730ed")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2079,8 +2079,8 @@ def open_family():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories of Family")
-    top1.configure(bg="#CD7054")
+    label = Label(top1, text = "These are the subcategories for Family,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#ff6287")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2118,8 +2118,8 @@ def open_finance():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "This are the subcategories of Finance")
-    top1.configure(bg="#43CD80")
+    label = Label(top1, text = "This are the subcategories of Finance,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#acacb7")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2158,8 +2158,8 @@ def open_career():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories of Career")
-    top1.configure(bg="#436EEE")
+    label = Label(top1, text = "These are the subcategories for Career,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#45baff")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2199,8 +2199,8 @@ def open_freetime():
     top1.geometry("270x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories of Freetime")
-    top1.configure(bg="#B7B7B7")
+    label = Label(top1, text = "These are the subcategories for Freetime,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#1221ff")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2238,8 +2238,8 @@ def open_romance():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories Romance")
-    top1.configure(bg="#8B0000")
+    label = Label(top1, text = "These are the subcategories for Romance,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#cb0000")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2277,8 +2277,8 @@ def open_fitness():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories Fitness")
-    top1.configure(bg="#CAFF70")
+    label = Label(top1, text = "These are the subcategories for Fitness,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#5bf765")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2316,8 +2316,8 @@ def open_selfcare():
     top1.geometry("268x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories Self-care")
-    top1.configure(bg="#CD6090")
+    label = Label(top1, text = "These are the subcategories for Self-care,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#ff1755")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2355,8 +2355,8 @@ def open_mindset():
     top1.geometry("260x240")
     
     # Create label
-    label = Label(top1, text = "These are the subcategories Mindset")
-    top1.configure(bg="#FFD700")
+    label = Label(top1, text = "These are the subcategories for Mindset,\n select one for a resource on how you can\n improve this aspect of your life!")
+    top1.configure(bg="#fde838")
     
     # Create Exit button
     button1 = Button(top1, text = "Exit", command = top1.destroy)
@@ -2385,7 +2385,7 @@ def createSourcesWindow():
     global root
     # Create the root window [categories]
     root = Tk()
-    root.title("Categories")
+    root.title("Resources")
     root.geometry("300x280")
 
     # Create label for root window [categories]
@@ -2426,5 +2426,3 @@ def createSourcesWindow():
 
     # Display until closed manually
     root.mainloop()
-
-
