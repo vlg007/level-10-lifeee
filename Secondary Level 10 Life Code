@@ -3,6 +3,8 @@ from PIL import Image, ImageTk
 import pathlib, os
 import math
 import tkinter.font as font
+from QRCodes import *
+
 
 class CircleFrame():
     def __init__(self, sliceImage, sliceRating):
@@ -418,6 +420,14 @@ class TextFrame():
         frame2.pack(side="right")
         canvas2 = Canvas(frame2, width=200, height=410, bg="grey")
         canvas2.pack()
+        button = Button(canvas2, text = "Resources", bg = "gray", height = 5, width = 10, command = self.open_list)
+        button.pack()
+
+    def open_list(self):
+        exec(open("QRCodes.py").read())
+        createSourcesWindow()
+        
+
 
 ###################################################################
 # Main Program
